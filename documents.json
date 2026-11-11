@@ -12,7 +12,7 @@
       },
       {
         "title": "Distribution contacts",
-        "sql": "select lot,destination,business,contact,phone,address,quantity,unit,verification_reference from distribution_contacts where recall_id=$1 order by lot,destination"
+        "sql": "select lot,destination,business,contact,phone,address from distribution_contacts where recall_id=$1 order by lot,destination"
       },
       {
         "title": "Reconciliation",
@@ -30,6 +30,10 @@
       {
         "title": "Report evidence",
         "sql": "select kind,reference,recorded_on,actor from reports where recall_id=$1 order by recorded_on"
+      },
+      {
+        "title": "Contact verification evidence",
+        "sql": "select lot,destination,verification_reference from distribution_contacts where recall_id=$1 and verification_reference is not null order by lot,destination"
       }
     ]
   },
@@ -42,7 +46,11 @@
       {
         "title": "Direct recipients",
         "note": "Verify recipients, contact evidence and scope before using the jurisdiction-specific regulator template. Nothing is sent.",
-        "sql": "select lot,destination,business,contact,phone,address,quantity,unit from distribution_contacts where recall_id=$1 order by lot,destination"
+        "sql": "select lot,destination,business,contact,phone,address from distribution_contacts where recall_id=$1 order by lot,destination"
+      },
+      {
+        "title": "Supplied quantities",
+        "sql": "select lot,destination,quantity,unit from distribution_contacts where recall_id=$1 order by lot,destination"
       }
     ]
   }

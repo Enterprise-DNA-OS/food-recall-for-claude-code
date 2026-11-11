@@ -4,16 +4,24 @@
     "title": "Weekly food recall review",
     "sections": [
       {
-        "title": "Open recall recovery",
-        "sql": "select recall,mode,owner,lot,product,destination,unit,distributed,unaccounted from recovery_balance where status='open' order by recall,lot,destination"
+        "title": "Open events",
+        "sql": "select code,mode,owner,status from recalls where status='open' order by code"
+      },
+      {
+        "title": "Outstanding stock",
+        "sql": "select recall,lot,destination,unit,distributed,unaccounted from recovery_balance where status='open' order by recall,lot,destination"
       },
       {
         "title": "Record checks",
         "sql": "select * from record_checks order by recall,rule"
       },
       {
+        "title": "Lot identity",
+        "sql": "select lot,product,supplier,date_mark from lot_balance order by lot"
+      },
+      {
         "title": "Lot balances",
-        "sql": "select * from lot_balance order by lot"
+        "sql": "select lot,unit,quantity,held,samples,distributed,undistributed from lot_balance order by lot"
       }
     ]
   },
@@ -23,7 +31,7 @@
     "sections": [
       {
         "title": "Distribution contacts",
-        "sql": "select * from distribution_contacts order by recall,lot,destination"
+        "sql": "select recall,destination,business,contact,phone,address from distribution_contacts order by recall,lot,destination"
       },
       {
         "title": "Unacknowledged",
