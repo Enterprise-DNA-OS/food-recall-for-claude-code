@@ -1,0 +1,47 @@
+{
+  "products": {
+    "file": "products.csv",
+    "columns": {
+      "code": "Code",
+      "name": "Name",
+      "gtin": "GTIN",
+      "unit": "Unit"
+    }
+  },
+  "locations": {
+    "file": "locations.csv",
+    "columns": {
+      "code": "Code",
+      "name": "Name",
+      "contact": "Contact",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "country": "Country"
+    }
+  },
+  "lots": {
+    "file": "lots.csv",
+    "columns": {
+      "code": "Code",
+      "product": "Product",
+      "supplier": "Supplier",
+      "date-mark": "Date",
+      "quantity": "Quantity",
+      "held": "Held",
+      "samples": "Samples",
+      "reference": "Reference"
+    }
+  },
+  "shipments": {
+    "file": "shipments.csv",
+    "columns": {
+      "code": "Code",
+      "lot": "Lot",
+      "destination": "Destination",
+      "quantity": "Quantity",
+      "date": "Date",
+      "reference": "Reference"
+    }
+  }
+}

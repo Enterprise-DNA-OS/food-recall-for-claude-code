@@ -1,11 +1,7 @@
----
-description: Check the records against the rules this industry lives under (the ones listed in docs/compliance.md) and report what is missing, late, or about to breach, with the rule cited.
----
+# compliance
 
-1. Read `docs/compliance.md`. Each rule has a name, the source it comes from, what a breach looks like in the data, and the SQL or command that finds it.
-2. Run each check. Use the CLI's `--json` output or a direct query through `scripts/lib/db.mjs`.
-3. Report as a table: rule, count, the worst example (name and days), the source. Order by severity: breached first, then due within 7 days, then clean.
-4. For anything breached, draft the fix the operator can approve: the record to update, the notice to send (draft to `drafts/`, never send), or the task to add.
-5. If a rule in `docs/compliance.md` is out of date, say so and stop. Do not guess at law. The operator confirms the rule, then you update the doc and the check together.
+Check recall evidence against the cited guidance and local rules in docs/compliance.md.
 
-Nothing here is legal advice. The doc records the rules the operator has told the system to enforce, with sources, and this command checks the data against them.
+Run `npm run recall -- compliance`. Add `--json` when comparing records. Cite the returned identifiers and source references. Separate exercises from live events, and keep products and units separate. Never infer that missing evidence means an action happened. Read docs/compliance.md before interpreting a compliance finding.
+
+Report the findings, owner and next recorded due date in chat. Do not send messages or change records during a read.

@@ -1,11 +1,49 @@
 [
   {
-    "name": "example",
-    "title": "TODO(author): the first document this industry must produce",
-    "for_each": "select gen_random_uuid() as id, 'Example' as name",
-    "file": "name",
+    "name": "recall-working-report",
+    "title": "Recall working report. Draft for operator review.",
+    "for_each": "select id,code from recalls order by code",
+    "file": "code",
     "sections": [
-      { "title": "Details", "sql": "select 'replace me' as item, $1::text as record_id" }
+      {
+        "title": "Scope and responsibility",
+        "layout": "record",
+        "sql": "select code,name,mode,jurisdiction,owner,reason,started_on,status from recalls where id=$1"
+      },
+      {
+        "title": "Distribution contacts",
+        "sql": "select lot,destination,business,contact,phone,address,quantity,unit,verification_reference from distribution_contacts where recall_id=$1 order by lot,destination"
+      },
+      {
+        "title": "Reconciliation",
+        "note": "Unaccounted quantities remain unresolved. Consumed is not recovered. Quantities stay separated by product and unit.",
+        "sql": "select lot,destination,unit,distributed,returned,destroyed,consumed,unaccounted from recovery_balance where recall_id=$1 order by lot,destination"
+      },
+      {
+        "title": "On-site stock",
+        "sql": "select b.lot,b.unit,b.quantity,b.held,b.samples,b.distributed,b.undistributed from lot_balance b join recall_lots x on x.lot_id=b.id where x.recall_id=$1"
+      },
+      {
+        "title": "Recorded communications",
+        "sql": "select c.kind,c.occurred_at,c.method,c.reference,c.actor from communications c join recipients x on x.id=c.recipient_id where x.recall_id=$1 order by c.occurred_at"
+      },
+      {
+        "title": "Report evidence",
+        "sql": "select kind,reference,recorded_on,actor from reports where recall_id=$1 order by recorded_on"
+      }
+    ]
+  },
+  {
+    "name": "distribution-list",
+    "title": "Recall distribution list. Draft.",
+    "for_each": "select id,code from recalls order by code",
+    "file": "code",
+    "sections": [
+      {
+        "title": "Direct recipients",
+        "note": "Verify recipients, contact evidence and scope before using the jurisdiction-specific regulator template. Nothing is sent.",
+        "sql": "select lot,destination,business,contact,phone,address,quantity,unit from distribution_contacts where recall_id=$1 order by lot,destination"
+      }
     ]
   }
 ]

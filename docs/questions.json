@@ -1,0 +1,42 @@
+[
+  [
+    "Which recipients still have no acknowledgement evidence?",
+    "unacknowledged"
+  ],
+  [
+    "How much stock remains unaccounted for at each destination?",
+    "recovery-balance"
+  ],
+  [
+    "Which overdue follow-ups belong to the same coordinator?",
+    "overdue-response"
+  ],
+  [
+    "Which current recall contacts still need verification?",
+    "contact-gaps"
+  ],
+  [
+    "Where did this finished batch go?",
+    "trace-lot DEMO-BATCH-A"
+  ],
+  [
+    "Which batches went to one destination?",
+    "trace-destination DEMO-NORTH"
+  ],
+  [
+    "How much of each batch was held, sampled or left undistributed?",
+    "lots"
+  ],
+  [
+    "Which Australian exercise reports are due or missing?",
+    "report-deadlines"
+  ],
+  [
+    "Which plan references are past their own review date?",
+    "stale-plans"
+  ],
+  [
+    "Which coordinator has the most unresolved record checks?",
+    "owner-workload"
+  ]
+]

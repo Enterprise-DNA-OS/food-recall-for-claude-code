@@ -1,13 +1,33 @@
 [
   {
     "name": "week",
-    "title": "This week",
-    "subtitle": "Food Recall for Claude Code: what needs attention, rendered by npm run view",
+    "title": "Weekly food recall review",
     "sections": [
       {
-        "title": "Needs attention",
-        "note": "TODO(author): point this at the industry's attention view (overdue, stuck, quiet).",
-        "sql": "select 'replace me' as item, 'TODO(author)' as why"
+        "title": "Open recall recovery",
+        "sql": "select recall,mode,owner,lot,product,destination,unit,distributed,unaccounted from recovery_balance where status='open' order by recall,lot,destination"
+      },
+      {
+        "title": "Record checks",
+        "sql": "select * from record_checks order by recall,rule"
+      },
+      {
+        "title": "Lot balances",
+        "sql": "select * from lot_balance order by lot"
+      }
+    ]
+  },
+  {
+    "name": "follow-up",
+    "title": "Recipient follow-up",
+    "sections": [
+      {
+        "title": "Distribution contacts",
+        "sql": "select * from distribution_contacts order by recall,lot,destination"
+      },
+      {
+        "title": "Unacknowledged",
+        "sql": "select recall,lot,destination,owner,response_due from recovery_balance where not acknowledged and status='open' order by response_due,recall"
       }
     ]
   }

@@ -1,24 +1,9 @@
-# Why there is no front end
+# Why this is a records desk
 
-FoodLogiQ is a database with a subscription. The tables underneath it are ordinary: a few entities, a few relationships, a handful of workflows you repeat every week. What you pay for is the layer on top that lets people who do not write SQL get at those tables. Screens, filters, dashboards, forms.
+A recall coordinator needs to know where a lot went, who has acknowledged the notification and how much stock remains unaccounted for. Those questions work from records and explicit operator decisions. The command recipes turn them into a daily round, weekly exercise review, distribution list and reconciliation report.
 
-That layer used to be the whole product, because talking to a database was hard. It is not hard any more. Open this folder in Claude Code, describe what you want, and it writes the query, runs it, and explains the answer. Ask a question the dashboard never had a chart for and you still get an answer.
+The free base has no customer portal, mobile barcode capture, offline entry, push notifications or live supply-chain feed. The read-only HTML reports show the data, but cannot change it. Enterprise DNA builds the capture screens and connections the business needs as part of a custom version. Keep an established emergency communication process throughout a switch.
 
-## What you gain
+An agent cannot decide whether food is safe or authorise a recall. It reads and records facts, prepares drafts and identifies missing evidence. The responsible person acts through their normal channels and records what actually happened.
 
-- **Better answers.** A dashboard shows what the vendor decided to chart. Here you ask your own question, in your own words, and get it answered against your own data.
-- **No seats.** Everyone who needs to look can look. The bill does not grow with headcount.
-- **Your data in your Postgres.** Plain tables. Back them up, query them from anything, leave any time. There is no export step because there is nothing to leave.
-- **A process that matches you.** When your way of working changes, you add a command. You do not wait for a feature request to clear.
-
-## What you give up
-
-- **A visual board.** Stages are a table you ask about, not cards you drag.
-- **A phone app.** It runs where Claude Code runs.
-- **A vendor help desk.** This is open source. Enterprise DNA supports the installed version for businesses that want someone to call.
-
-## Who this fits
-
-Small teams who already use Claude Code, or who would rather learn to ask than learn another interface. If your team needs a screen to look at all day, keep FoodLogiQ. If you need the answers more than the screens, this is cheaper, faster and yours.
-
-Installed and run for you: https://enterprisedna.co/omni/instead-of/foodlogiq
+Claude Code, Codex, OpenCode and Cursor use the same commands. A local PGlite database is useful for one trusted operator and a disposable demo. A shared Postgres deployment needs access control, backups, evidence storage and operational review. It is not a hosted multi-user app out of the box.
