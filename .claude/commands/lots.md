@@ -1,3 +1,7 @@
+---
+description: "Reconcile production, on-site holds, samples and recorded distribution by batch."
+---
+
 # lots
 
 Reconcile production, on-site holds, samples and recorded distribution by batch.

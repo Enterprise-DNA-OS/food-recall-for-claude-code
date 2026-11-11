@@ -1,3 +1,7 @@
+---
+description: "Read the packaged products and the unit used for each quantity."
+---
+
 # products
 
 Read the packaged products and the unit used for each quantity.

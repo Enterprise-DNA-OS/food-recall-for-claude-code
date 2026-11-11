@@ -1,3 +1,7 @@
+---
+description: "Add another reviewed batch to an open event. The command snapshots its direct recipients."
+---
+
 # scope
 
 Add another reviewed batch to an open event. The command snapshots its direct recipients.

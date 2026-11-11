@@ -1,3 +1,7 @@
+---
+description: "Append an operational note without changing the original records."
+---
+
 # log
 
 Append an operational note without changing the original records.

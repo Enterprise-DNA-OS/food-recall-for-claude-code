@@ -1,3 +1,7 @@
+---
+description: "Run the coordinator round: scope, recipients, acknowledgement and unaccounted quantities."
+---
+
 # recall-round
 
 Run the coordinator round: scope, recipients, acknowledgement and unaccounted quantities.

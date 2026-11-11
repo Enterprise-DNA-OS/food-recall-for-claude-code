@@ -1,3 +1,7 @@
+---
+description: "Record the responsible person's reviewed closure decision. It does not declare food safe or close a regulator case."
+---
+
 # close
 
 Record the responsible person's reviewed closure decision. It does not declare food safe or close a regulator case.

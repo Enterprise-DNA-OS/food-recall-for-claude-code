@@ -1,3 +1,7 @@
+---
+description: "Find every recorded direct destination of a lot."
+---
+
 # trace-lot
 
 Find every recorded direct destination of a lot.

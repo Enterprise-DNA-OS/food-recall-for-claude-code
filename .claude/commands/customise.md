@@ -1,3 +1,7 @@
+---
+description: "Read CLAUDE.md and the operator's request. Agree the field, name or rule using a concrete example. Add the change as the next numbered SQL migration for both Postgres and PGlite. Never edit an applied migration, alter history to make it pass, or weaken a recall control silently. Update the CLI, command recipe and affected report. Add a test of the new behaviour and run npm test. Take a database backup, apply the migration to the operator's database only within the requested scope, then read the changed record and report the result. Cite official guidance when a rule has a legal basis and label local policy separately."
+---
+
 # customise
 
 Read CLAUDE.md and the operator's request. Agree the field, name or rule using a concrete example. Add the change as the next numbered SQL migration for both Postgres and PGlite. Never edit an applied migration, alter history to make it pass, or weaken a recall control silently. Update the CLI, command recipe and affected report. Add a test of the new behaviour and run npm test. Take a database backup, apply the migration to the operator's database only within the requested scope, then read the changed record and report the result. Cite official guidance when a rule has a legal basis and label local policy separately.

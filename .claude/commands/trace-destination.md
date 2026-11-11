@@ -1,3 +1,7 @@
+---
+description: "Find every batch recorded as supplied to one destination."
+---
+
 # trace-destination
 
 Find every batch recorded as supplied to one destination.

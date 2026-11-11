@@ -1,3 +1,7 @@
+---
+description: "Find direct recipients without acknowledgement evidence."
+---
+
 # unacknowledged
 
 Find direct recipients without acknowledgement evidence.

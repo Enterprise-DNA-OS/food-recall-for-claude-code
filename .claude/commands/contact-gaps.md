@@ -1,3 +1,7 @@
+---
+description: "Find recipient contact details that still need verification."
+---
+
 # contact-gaps
 
 Find recipient contact details that still need verification.

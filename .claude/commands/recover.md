@@ -1,3 +1,7 @@
+---
+description: "Record one quantity disposition from an actual stock reconciliation."
+---
+
 # recover
 
 Record one quantity disposition from an actual stock reconciliation.

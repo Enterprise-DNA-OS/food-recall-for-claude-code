@@ -1,3 +1,7 @@
+---
+description: "Draft a factual distribution and scope brief. Use the regulator-approved template and a human review for any actual notice. Nothing sends."
+---
+
 # draft-notice
 
 Draft a factual distribution and scope brief. Use the regulator-approved template and a human review for any actual notice. Nothing sends.

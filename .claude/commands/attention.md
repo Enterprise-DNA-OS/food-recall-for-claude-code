@@ -1,3 +1,7 @@
+---
+description: "Read every open record check before the daily round ends."
+---
+
 # attention
 
 Read every open record check before the daily round ends.

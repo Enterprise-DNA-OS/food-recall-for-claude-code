@@ -1,3 +1,7 @@
+---
+description: "Import reviewed FoodLogiQ export sheets with explicit column mapping. Read docs/replace-foodlogiq.md first. Run a dry run, compare the result, then apply the same mapped import."
+---
+
 # import
 
 Import reviewed FoodLogiQ export sheets with explicit column mapping. Read docs/replace-foodlogiq.md first. Run a dry run, compare the result, then apply the same mapped import.

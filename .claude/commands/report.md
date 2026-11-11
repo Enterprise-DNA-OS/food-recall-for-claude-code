@@ -1,3 +1,7 @@
+---
+description: "Record an interim or final report already reviewed or lodged by the operator."
+---
+
 # report
 
 Record an interim or final report already reviewed or lodged by the operator.

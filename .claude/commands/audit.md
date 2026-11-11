@@ -1,3 +1,7 @@
+---
+description: "Read the append-only change history and named actors."
+---
+
 # audit
 
 Read the append-only change history and named actors.

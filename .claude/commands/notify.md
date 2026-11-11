@@ -1,3 +1,7 @@
+---
+description: "Record a notification that already happened through the operator's communication process. This command sends nothing."
+---
+
 # notify
 
 Record a notification that already happened through the operator's communication process. This command sends nothing.

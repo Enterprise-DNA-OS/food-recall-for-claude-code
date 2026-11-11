@@ -1,3 +1,7 @@
+---
+description: "Record a reviewed finished-lot balance from production or stock records."
+---
+
 # add-lot
 
 Record a reviewed finished-lot balance from production or stock records.

@@ -1,3 +1,7 @@
+---
+description: "Read the recall contact list with appended contact verifications."
+---
+
 # distribution-list
 
 Read the recall contact list with appended contact verifications.

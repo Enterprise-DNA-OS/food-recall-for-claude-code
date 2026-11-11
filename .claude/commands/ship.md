@@ -1,3 +1,7 @@
+---
+description: "Record an actual shipment of one batch to one recipient."
+---
+
 # ship
 
 Record an actual shipment of one batch to one recipient.

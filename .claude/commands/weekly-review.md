@@ -1,3 +1,7 @@
+---
+description: "Prepare the Monday exercise and recall review from recall-round, attention and report-deadlines. It writes a draft HTML report."
+---
+
 # weekly-review
 
 Prepare the Monday exercise and recall review from recall-round, attention and report-deadlines. It writes a draft HTML report.

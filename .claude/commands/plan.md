@@ -1,3 +1,7 @@
+---
+description: "Append a reviewed plan revision and its local review date."
+---
+
 # plan
 
 Append a reviewed plan revision and its local review date.

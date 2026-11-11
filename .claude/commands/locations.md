@@ -1,3 +1,7 @@
+---
+description: "Read the direct-recipient contact directory."
+---
+
 # locations
 
 Read the direct-recipient contact directory.

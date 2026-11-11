@@ -1,3 +1,7 @@
+---
+description: "Record a direct recipient with verified contact details."
+---
+
 # add-location
 
 Record a direct recipient with verified contact details.

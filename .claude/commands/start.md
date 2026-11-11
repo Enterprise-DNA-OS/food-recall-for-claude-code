@@ -1,3 +1,7 @@
+---
+description: "Record a recall or exercise already scoped by the responsible food safety lead."
+---
+
 # start
 
 Record a recall or exercise already scoped by the responsible food safety lead.

@@ -1,3 +1,7 @@
+---
+description: "Append verified contact details without changing the original recall snapshot."
+---
+
 # verify-contact
 
 Append verified contact details without changing the original recall snapshot.

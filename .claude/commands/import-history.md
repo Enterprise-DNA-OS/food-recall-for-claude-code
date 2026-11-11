@@ -1,3 +1,7 @@
+---
+description: "Read source hashes, import counts and dates."
+---
+
 # import-history
 
 Read source hashes, import counts and dates.

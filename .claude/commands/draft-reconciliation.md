@@ -1,3 +1,7 @@
+---
+description: "Draft the batch-by-recipient quantity reconciliation. Keep consumed separate from recovered and review on-site stock."
+---
+
 # draft-reconciliation
 
 Draft the batch-by-recipient quantity reconciliation. Keep consumed separate from recovered and review on-site stock.

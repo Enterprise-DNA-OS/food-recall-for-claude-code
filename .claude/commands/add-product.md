@@ -1,3 +1,7 @@
+---
+description: "Record a product with its actual quantity unit."
+---
+
 # add-product
 
 Record a product with its actual quantity unit.

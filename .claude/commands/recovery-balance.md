@@ -1,3 +1,7 @@
+---
+description: "Compare distributed, returned, destroyed, consumed and unaccounted stock by recipient and batch."
+---
+
 # recovery-balance
 
 Compare distributed, returned, destroyed, consumed and unaccounted stock by recipient and batch.

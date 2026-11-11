@@ -1,3 +1,7 @@
+---
+description: "Read the coordinator notes in time order."
+---
+
 # notes
 
 Read the coordinator notes in time order.

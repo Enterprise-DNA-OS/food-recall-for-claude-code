@@ -1,3 +1,7 @@
+---
+description: "Read the dated distribution history and its source references."
+---
+
 # shipments
 
 Read the dated distribution history and its source references.

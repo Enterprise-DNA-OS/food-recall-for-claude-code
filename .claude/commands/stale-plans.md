@@ -1,3 +1,7 @@
+---
+description: "Find plan references past their locally chosen review date."
+---
+
 # stale-plans
 
 Find plan references past their locally chosen review date.

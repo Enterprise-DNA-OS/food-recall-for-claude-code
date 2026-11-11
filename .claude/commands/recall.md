@@ -1,3 +1,7 @@
+---
+description: "Read one complete event before writing any new record."
+---
+
 # recall
 
 Read one complete event before writing any new record.

@@ -1,3 +1,7 @@
+---
+description: "Write every record and source row to a new private archive directory. It is a data archive, not a database restore."
+---
+
 # export
 
 Write every record and source row to a new private archive directory. It is a data archive, not a database restore.

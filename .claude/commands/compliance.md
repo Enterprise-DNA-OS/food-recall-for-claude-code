@@ -1,3 +1,7 @@
+---
+description: "Check recall evidence against the cited guidance and local rules in docs/compliance.md."
+---
+
 # compliance
 
 Check recall evidence against the cited guidance and local rules in docs/compliance.md.

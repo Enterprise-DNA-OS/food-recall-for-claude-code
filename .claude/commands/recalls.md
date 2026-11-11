@@ -1,3 +1,7 @@
+---
+description: "Read the open and closed recalls, including whether each is an exercise."
+---
+
 # recalls
 
 Read the open and closed recalls, including whether each is an exercise.

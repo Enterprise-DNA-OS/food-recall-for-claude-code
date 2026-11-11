@@ -1,3 +1,7 @@
+---
+description: "Record an actual recipient acknowledgement and its evidence."
+---
+
 # acknowledge
 
 Record an actual recipient acknowledgement and its evidence.
